@@ -21,28 +21,16 @@ const getThemePreference = (): Theme => {
 	return 'light';
 };
 
-// set theme class
-if (browser) {
-	const isDark = getThemePreference() === 'dark';
-	document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
-}
-
 export const theme = writable<Theme>(getThemePreference());
 
 theme.subscribe((value) => {
 	if (browser) {
-		// upodate theme class
-		if (value === 'dark') {
-			document.documentElement.classList.add('dark');
-		} else if (value === 'light') {
-			document.documentElement.classList.remove('dark');
-		}
+		const isDark = value === 'dark';
 
-		// update local storage
-		if (value === 'dark') {
-			localStorage.setItem('theme', 'dark');
-		} else if (value === 'light') {
-			localStorage.setItem('theme', 'light');
-		}
+		// upodate theme in css
+		document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
+
+		// update theme in local storage
+		localStorage.setItem('theme', isDark ? 'dark' : 'light');
 	}
 });
