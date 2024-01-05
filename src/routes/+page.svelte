@@ -1,1 +1,6 @@
-<p class="text-xl text-sky-500">yo</p>
+<script lang="ts">
+	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+</script>
+
+<ThemeToggle />
+<p class="text-xl">yo</p>
