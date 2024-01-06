@@ -1,1 +1,3 @@
-vloe.dev
+## Credits
+
+- Design inspired by [shadcn](https://shadcn.com).
