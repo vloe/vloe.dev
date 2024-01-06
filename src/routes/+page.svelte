@@ -23,17 +23,6 @@
 				<ul class="space-y-4 py-2">
 					<li>
 						<a
-							href="https://exphil.io"
-							target="_blank"
-							rel="noreferrer"
-							class="flex flex-col space-y-1.5 text-sm"
-						>
-							<span class="font-medium underline underline-offset-4">exphil</span>
-							<span class="text-muted-foreground">a philosophy quiz app.</span>
-						</a>
-					</li>
-					<li>
-						<a
 							href="https://github.com/vloe/nvim"
 							target="_blank"
 							rel="noreferrer"
