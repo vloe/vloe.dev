@@ -1,3 +1,14 @@
+<script lang="ts">
+	let title = 'vloe';
+	let desc = 'cs student';
+</script>
+
+<svelte:head>
+	<title>{title}</title>
+	<meta name="title" content={title} />
+	<meta name="description" content={desc} />
+</svelte:head>
+
 <main class="mt-8">
 	<div class="flex flex-col space-y-6">
 		<article>
