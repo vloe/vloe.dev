@@ -1,6 +1,6 @@
 <script lang="ts">
-	let title = 'vloe';
-	let desc = 'cs student';
+	let title = "vloe"
+	let desc = "cs student"
 </script>
 
 <svelte:head>
@@ -14,7 +14,9 @@
 		<article>
 			<div class="space-y-1.5">
 				<h2 class="font-mono text-lg tracking-tighter">info</h2>
-				<p class="text-sm text-muted-foreground">i'm an 20 y/o cs student at university of oslo.</p>
+				<p class="text-sm text-muted-foreground">
+					i'm an 20 y/o cs student at university of oslo.
+				</p>
 			</div>
 		</article>
 		<article>

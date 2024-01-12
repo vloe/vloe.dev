@@ -1,8 +1,8 @@
 <script lang="ts">
-	import X from '$lib/icons/X.svelte';
-	import Github from '$lib/icons/Github.svelte';
-	import Link from '$lib/components/Link.svelte';
-	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+	import X from "$lib/icons/X.svelte"
+	import Github from "$lib/icons/Github.svelte"
+	import Link from "$lib/components/Link.svelte"
+	import ThemeToggle from "$lib/components/ThemeToggle.svelte"
 </script>
 
 <nav class="mt-12 flex items-center justify-between">
@@ -17,7 +17,13 @@
 		>
 			<X class="h-4 w-4" />
 		</Link>
-		<Link href="https://github.com/vloe" target="_blank" rel="noreferrer" variant="ghost" size="xs">
+		<Link
+			href="https://github.com/vloe"
+			target="_blank"
+			rel="noreferrer"
+			variant="ghost"
+			size="xs"
+		>
 			<Github class="h-4 w-4" />
 		</Link>
 		<ThemeToggle />

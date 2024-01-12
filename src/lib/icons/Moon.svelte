@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { cn } from '$lib/utils/cn';
+	import { cn } from "$lib/utils/cn"
 </script>
 
 <svg
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 20 20"
 	fill="currentColor"
-	class={cn('h-5 w-5', $$props.class)}
+	class={cn("h-5 w-5", $$props.class)}
 >
 	<path
 		fill-rule="evenodd"
