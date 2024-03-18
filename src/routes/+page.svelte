@@ -34,6 +34,17 @@
 							<span class="text-muted-foreground">my nvim config.</span>
 						</a>
 					</li>
+					<li>
+						<a
+							href="https://github.com/vloe/vloe.dev"
+							target="_blank"
+							rel="noreferrer"
+							class="flex flex-col space-y-1.5 text-sm"
+						>
+							<span class="font-medium underline underline-offset-4">vloe.dev</span>
+							<span class="text-muted-foreground">a minimal personal site.</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</article>
