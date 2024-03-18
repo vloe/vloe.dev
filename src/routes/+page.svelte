@@ -15,7 +15,7 @@
 			<div class="space-y-1.5">
 				<h2 class="font-mono text-lg tracking-tighter">info</h2>
 				<p class="text-sm text-muted-foreground">
-					i'm an 20 y/o cs student at university of oslo.
+					hi, i'm a 20 y/o cs student at university of oslo.
 				</p>
 			</div>
 		</article>
