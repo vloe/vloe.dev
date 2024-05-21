@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Github from "$lib/icons/Github.svelte"
 	import Link from "$lib/components/Link.svelte"
-	import ThemeToggle from "$lib/components/ThemeToggle.svelte"
+	import Button from "$lib/components/Button.svelte"
 </script>
 
 <nav class="mt-12 flex items-center justify-between">
@@ -16,6 +16,6 @@
 		>
 			<Github class="h-4 w-4" />
 		</Link>
-		<ThemeToggle />
+		<Button variant="outline" size="sm">Sign in</Button>
 	</div>
 </nav>

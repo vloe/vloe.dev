@@ -1,7 +1,7 @@
-## Architecture
+## architecture
 
-Static site built with [SvelteKit](https://kit.svelte.dev) and deployed with [Cloudflare Pages](https://pages.cloudflare.com).
+static site built with [sveltekit](https://kit.svelte.dev). deployed with [cloudflare pages](https://pages.cloudflare.com).
 
-## Credits
+## credits
 
-Inspired by [shadcn](https://shadcn.com).
+-   design inspired by [shadcn](https://shadcn.com)
