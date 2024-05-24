@@ -4,7 +4,7 @@
 	import X from "$lib/icons/X.svelte"
 </script>
 
-<div class="mt-14">
+<div class="mt-12">
 	<header class="flex h-16 items-center justify-between">
 		<a href="/">
 			<h2 class="text-lg font-bold">vloe</h2>
