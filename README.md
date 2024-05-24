@@ -4,4 +4,4 @@ static site built with [sveltekit](https://kit.svelte.dev). deployed with [cloud
 
 ## credits
 
--   design inspired by [shadcn](https://shadcn.com)
+design inspired by [shadcn](https://shadcn.com)
