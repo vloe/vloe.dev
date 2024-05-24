@@ -7,12 +7,9 @@
 <div class="mt-14">
 	<header class="flex h-16 items-center justify-between">
 		<a href="/">
-			<div class="flex flex-col space-y-1">
-				<span class="text-lg font-bold">vloe</span>
-				<span class="text-sm">cs student</span>
-			</div>
+			<h2 class="text-lg font-bold">vloe</h2>
 		</a>
-		<nav class="flex items-center space-x-1.5">
+		<nav class="flex items-center space-x-1">
 			<Link
 				href="https://x.com/vloedev"
 				target="_blank"
@@ -20,7 +17,7 @@
 				variant="ghost"
 				size="icon"
 			>
-				<X />
+				<X class="h-4 w-4" />
 			</Link>
 			<Link
 				href="https://github.com/vloe"
@@ -29,7 +26,7 @@
 				variant="ghost"
 				size="icon"
 			>
-				<Github />
+				<Github class="h-4 w-4" />
 			</Link>
 		</nav>
 	</header>
