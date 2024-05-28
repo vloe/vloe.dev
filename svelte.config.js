@@ -5,12 +5,8 @@ import { vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter({
-			paths: {
-				base: "", // set base path to empty string for root domain
-				relative: false, // set relative to false
-			},
-		}),
+		paths: { assets: "/test1", base: "/test2" },
+		adapter: adapter(),
 	},
 }
 
