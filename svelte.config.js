@@ -7,7 +7,8 @@ const config = {
 	kit: {
 		adapter: adapter({
 			paths: {
-				base: "/dudedoesthiswork",
+				base: "", // set base path to empty string for root domain
+				relative: false, // set relative to false
 			},
 		}),
 	},
