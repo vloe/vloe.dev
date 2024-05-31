@@ -37,7 +37,7 @@ importers:
         version: 3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136)
       prettier-plugin-tailwindcss:
         specifier: ^0.6.1
-        version: 0.6.1(prettier-plugin-svelte@3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136))(prettier@3.1.1)
+        version: 0.6.1(prettier-plugin-organize-imports@3.2.4(prettier@3.1.1)(typescript@5.3.3))(prettier-plugin-svelte@3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136))(prettier@3.1.1)
       svelte:
         specifier: 5.0.0-next.136
         version: 5.0.0-next.136
@@ -838,6 +838,19 @@ packages:
   postcss@8.4.33:
     resolution: {integrity: sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==}
     engines: {node: ^10 || ^12 || >=14}
+
+  prettier-plugin-organize-imports@3.2.4:
+    resolution: {integrity: sha512-6m8WBhIp0dfwu0SkgfOxJqh+HpdyfqSSLfKKRZSFbDuEQXDDndb8fTpRWkUrX/uBenkex3MgnVk0J3b3Y5byog==}
+    peerDependencies:
+      '@volar/vue-language-plugin-pug': ^1.0.4
+      '@volar/vue-typescript': ^1.0.4
+      prettier: '>=2.0'
+      typescript: '>=2.9'
+    peerDependenciesMeta:
+      '@volar/vue-language-plugin-pug':
+        optional: true
+      '@volar/vue-typescript':
+        optional: true
 
   prettier-plugin-svelte@3.1.2:
     resolution: {integrity: sha512-7xfMZtwgAWHMT0iZc8jN4o65zgbAQ3+O32V6W7pXrqNvKnHnkoyQCGCbKeUyXKZLbYE0YhFRnamfxfkEGxm8qA==}
@@ -1804,15 +1817,22 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  prettier-plugin-organize-imports@3.2.4(prettier@3.1.1)(typescript@5.3.3):
+    dependencies:
+      prettier: 3.1.1
+      typescript: 5.3.3
+    optional: true
+
   prettier-plugin-svelte@3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136):
     dependencies:
       prettier: 3.1.1
       svelte: 5.0.0-next.136
 
-  prettier-plugin-tailwindcss@0.6.1(prettier-plugin-svelte@3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136))(prettier@3.1.1):
+  prettier-plugin-tailwindcss@0.6.1(prettier-plugin-organize-imports@3.2.4(prettier@3.1.1)(typescript@5.3.3))(prettier-plugin-svelte@3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136))(prettier@3.1.1):
     dependencies:
       prettier: 3.1.1
     optionalDependencies:
+      prettier-plugin-organize-imports: 3.2.4(prettier@3.1.1)(typescript@5.3.3)
       prettier-plugin-svelte: 3.1.2(prettier@3.1.1)(svelte@5.0.0-next.136)
 
   prettier@3.1.1: {}
