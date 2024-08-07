@@ -3,6 +3,8 @@ export default {
 	content: ["./src/**/*.{html,js,svelte,ts}"],
 	plugins: [],
 	theme: {
-		extend: {},
+		fontFamily: {
+			sans: ["Inter", "ui-sans-serif", "system-ui"],
+		},
 	},
 }
