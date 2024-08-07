@@ -10,4 +10,6 @@
 	let { children }: $Props = $props()
 </script>
 
-{@render children()}
+<div class="container mx-auto max-w-2xl scroll-smooth px-4 sm:px-12">
+	{@render children()}
+</div>
