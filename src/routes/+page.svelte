@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div class="pt-24">
-	<div class="flex h-16 items-center justify-between">
+	<header class="flex h-16 items-center justify-between">
 		<div class="flex flex-col justify-center gap-y-0.5 text-white">
 			<h1 class="text-lg font-semibold">ɣloe</h1>
 			<h3 class="text-sm">cs student</h3>
@@ -39,5 +39,38 @@
 				<Github />
 			</Btn>
 		</div>
-	</div>
+	</header>
+</div>
+<div class="pt-8">
+	<main class="flex flex-col gap-y-4">
+		<h2 class="font-medium tracking-wider text-white">projects</h2>
+		<ul class="flex flex-col gap-y-4 text-sm">
+			<li class="grid items-start gap-1.5">
+				<a
+					class="text-white underline underline-offset-4"
+					href="https://shorter.dev"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					shorter
+				</a>
+				<span class="text-neutral-400">a domain shortener tool</span>
+			</li>
+			<li class="grid items-start gap-1.5">
+				<a class="text-white underline underline-offset-4" href="/"> vloe.dev </a>
+				<span class="text-neutral-400">a minimal personal site</span>
+			</li>
+			<li class="grid items-start gap-1.5">
+				<a
+					class="text-white underline underline-offset-4"
+					href="https://github.com/vloe/nvim"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					nvim
+				</a>
+				<span class="text-neutral-400">my nvim config</span>
+			</li>
+		</ul>
+	</main>
 </div>
