@@ -24,4 +24,4 @@ jobs:
                   apiToken: ${{ secrets.CF_API_TOKEN }}
                   accountId: ${{ secrets.CF_ACCOUNT_ID }}
                   projectName: vloe
-                  directory: /build
+                  directory: .svelte-kit/build
