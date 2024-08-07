@@ -44,7 +44,7 @@
 <div class="pt-8">
 	<main class="flex flex-col gap-y-4">
 		<h2 class="font-medium tracking-wider text-white">projects</h2>
-		<ul class="flex flex-col gap-y-4 text-sm">
+		<ul class="flex flex-col gap-y-3 text-sm">
 			<li class="grid items-start gap-1.5">
 				<a
 					class="text-white underline underline-offset-4"

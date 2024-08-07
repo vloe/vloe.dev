@@ -6,8 +6,6 @@
 	}
 
 	let { class: className }: $Props = $props()
-
-	$inspect(className)
 </script>
 
 <svg
