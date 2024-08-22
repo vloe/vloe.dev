@@ -4,7 +4,7 @@
 	import { Btn } from "$lib/ui/btn"
 
 	const title = "vloe"
-	const desc = "cs student"
+	const desc = "cs undergrad"
 </script>
 
 <svelte:head>
@@ -17,7 +17,7 @@
 	<header class="flex h-16 items-center justify-between">
 		<div class="flex flex-col justify-center gap-y-0.5 text-white">
 			<h1 class="text-lg font-semibold">ɣloe</h1>
-			<h3 class="text-sm">cs student</h3>
+			<h3 class="text-sm">cs undergrad</h3>
 		</div>
 		<div class="flex items-center gap-x-2">
 			<Btn
