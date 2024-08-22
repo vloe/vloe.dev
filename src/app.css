@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+	body {
+		@apply bg-black text-white;
+	}
+	a {
+		@apply text-violet-400 underline underline-offset-4;
+	}
 	@font-face {
 		font-family: "Inter";
 		font-style: normal;
