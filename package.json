@@ -5,9 +5,6 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
@@ -17,8 +14,6 @@
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^9.6.0",
 		"autoprefixer": "^10.4.20",
-		"bits-ui": "^0.21.13",
-		"cva": "1.0.0-beta.1",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-perfectionist": "^3.1.2",
@@ -30,7 +25,6 @@
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"svelte": "^5.0.0-next.1",
 		"svelte-check": "^3.6.0",
-		"tailwind-merge": "^2.4.0",
 		"tailwindcss": "^3.4.7",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0",
