@@ -28,7 +28,14 @@
 			<h2 class="text-lg tracking-tight">about</h2>
 			<p>
 				hi, i'm a second-year cs undergrad at the university of oslo. looking for a swe
-				internship summer '25, <a href="mailto:niklaa@uio.no"> hmu</a>(:
+				internship summer '25,
+				<a
+					href="https://x.com/messages/compose?recipient_id=1649091259762458626"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					hmu
+				</a>(:
 			</p>
 		</article>
 		<article class="flex flex-col space-y-3">
