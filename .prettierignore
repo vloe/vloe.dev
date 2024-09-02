@@ -1,3 +1,11 @@
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+# output
+**/.output
+**/.svelte-kit
+**/build
+**/target
+**/dist
+**/pkg
+
+# package managers
+**/package-lock.json
+**/pnpm-lock.yaml
