@@ -35,7 +35,6 @@
 					<a href="https://shorter.dev" rel="noopener noreferrer" target="_blank">
 						shorter
 					</a>
-					(wip)
 				</li>
 			</ul>
 		</article>
