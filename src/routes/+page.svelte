@@ -43,7 +43,7 @@
 			<h2 class="text-lg tracking-tight">about</h2>
 			<p>
 				currently a second-year undergrad student (prosa @ uio). i love building stuff and
-				find ml interesting.
+				find ml and hacking interesting.
 			</p>
 		</article>
 		<article class="flex flex-col gap-y-1.5">
