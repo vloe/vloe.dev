@@ -7,15 +7,17 @@
 		@apply bg-black text-white;
 	}
 	@font-face {
-		font-family: "Inter";
-		font-style: normal;
-		font-weight: 100 900;
-		src: url(/fonts/Inter-VariableFont_opsz,wght.ttf);
+		font-family: "Neue Montreal";
+		src: url(/fonts/PPNeueMontreal-Medium.otf);
+	}
+	@font-face {
+		font-family: "Editorial Sans";
+		src: url(/fonts/PPEditorialSans-Medium.otf);
 	}
 }
 
 @layer components {
 	a {
-		@apply text-purple-300 underline underline-offset-4;
+		@apply text-violet-300;
 	}
 }
