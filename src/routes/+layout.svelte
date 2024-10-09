@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { Snippet } from "svelte"
 
+	import { Header } from "$lib/components/ui/header"
+
 	import "../app.css"
 
 	type $Props = {
@@ -11,5 +13,6 @@
 </script>
 
 <div class="container mx-auto max-w-2xl px-6">
+	<Header />
 	{@render children()}
 </div>
