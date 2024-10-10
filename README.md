@@ -4,4 +4,4 @@ a static site built w [sveltekit](https://kit.svelte.dev) and deployed to [cloud
 
 ## credits
 
--   design inspo: [maisy](https://awhmaisy.com)
+design inspired by [maisy](https://awhmaisy.com)
